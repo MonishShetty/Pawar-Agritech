@@ -14,12 +14,12 @@ export default function Team() {
                     <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
+                            <a >
                                 <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="vishal.jpeg" alt="Vishal Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
-                                    <a href="#">Vishal Pawar</a>
+                                    <a >Vishal Pawar</a>
                                 </h3>
                                 <span class="text-green-900 dark:text-gray-400">CEO</span>
                                 <p class="mt-3 mb-4 font-light text-green-900 dark:text-gray-400">
@@ -38,12 +38,12 @@ export default function Team() {
                         </div>
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
+                            <a >
                                 <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="appu.jpeg" alt="Appu Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
-                                    <a href="#">Appu Pawar</a>
+                                    <a >Appu Pawar</a>
                                 </h3>
                                 <span class="text-green-900 dark:text-gray-400">CMO</span>
                                 <p class="mt-3 mb-4 font-light text-green-900 dark:text-gray-400">
@@ -56,12 +56,12 @@ export default function Team() {
                         </div>
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
+                            <a >
                                 <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="moni.jpg" alt="Monish Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
-                                    <a href="#">Monish H Shetty</a>
+                                    <a >Monish H Shetty</a>
                                 </h3>
                                 <span class="text-green-900 dark:text-gray-400">Web Developer</span>
                                 <p class="mt-3 mb-4 font-light text-green-900 dark:text-gray-400">
@@ -87,12 +87,12 @@ export default function Team() {
                         </div>
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
-                            <a href="#">
+                            <a >
                                 <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="manoj.jpg" alt="Shree Avatar" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
-                                    <a href="#">Manoj Siddoji</a>
+                                    <a >Manoj Siddoji</a>
                                 </h3>
                                 <span class="text-green-900 dark:text-gray-400">Product Designer</span>
                                 <p class="mt-3 mb-4 font-light text-green-900 dark:text-gray-400">
