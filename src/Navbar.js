@@ -39,7 +39,7 @@ export default function Navbar() {
       <nav className="bg-green-100 border-gray-200 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
           <a className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="logo.png" className="h-15 w-24 rounded-full" alt="Flowbite Logo" />
+            <img src="logo.png" className="h-15 w-24 rounded-full"  />
           </a>
           <div className="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
             <Link to='/login' className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">
@@ -58,7 +58,7 @@ export default function Navbar() {
           <div id="mega-menu" className="items-center justify-between w-full md:flex md:w-auto md:order-1">
             <ul className="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-8 rtl:space-x-reverse">
               <li>
-              <a href="/" className="block py-2 px-3 text-green-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-900 md:p-0 dark:text-green-900 md:dark:hover:text-green-900 dark:hover:bg-gray-700 dark:hover:text-green-900 md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+              <a  className="block py-2 px-3 text-green-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-900 md:p-0 dark:text-green-900 md:dark:hover:text-green-900 dark:hover:bg-gray-700 dark:hover:text-green-900 md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
               </li>
               <li>
                 <button id="mega-menu-dropdown-button" onClick={toggleServiceDropdown} className="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-green-900	 md:p-0 dark:text-white md:dark:hover:text-green-900	 dark:hover:bg-gray-700 dark:hover:text-green-900	 md:dark:hover:bg-transparent dark:border-gray-700">
@@ -84,21 +84,7 @@ export default function Navbar() {
                           Soil Testing
                         </Link>
                       </li>
-                      {/* <li>
-                        <a onClick={closeServiceDropdown} href="#" className="text-gray-500 dark:text-gray-400 hover:text-green-900	 dark:hover:text-green-900	">
-                          Organic Fertilizers
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={closeServiceDropdown} href="#" className="text-gray-500 dark:text-gray-400 hover:text-green-900	 dark:hover:text-green-900	">
-                          Storage Warehouse
-                        </a>
-                      </li>
-                      <li>
-                        <a onClick={closeServiceDropdown} href="#" className="text-gray-500 dark:text-gray-400 hover:text-green-900	 dark:hover:text-green-900	">
-                          Others
-                        </a>
-                      </li> */}
+                     
                     </ul>
                   </div>
                 </div>
