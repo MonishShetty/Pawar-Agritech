@@ -38,9 +38,9 @@ export default function Example() {
                     Password
                   </label>
                   <div className="text-sm">
-                    <a href="#" className="font-semibold text-white">
+                    <div  className="font-semibold text-white">
                       Forgot password?
-                    </a>
+                    </div>
                   </div>
                 </div>
                 <div className="mt-2">
