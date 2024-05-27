@@ -11,9 +11,9 @@ export default function Signup() {
         >
             <section className=" dark:bg-gray-900">
                 <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-                    <a  className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+                    <div className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
                         {/* <img className="w-8 h-8 mr-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" /> */}
-                    </a>
+                    </div>
                     <div className="w-full opacity-90 rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700 bg-opacity-80">
                         <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                             <h1 className="text-3xl font-bold leading-tight tracking-tight text-white md:text-2xl dark:text-white">
@@ -37,7 +37,7 @@ export default function Signup() {
                                         <input id="terms" aria-describedby="terms" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="" />
                                     </div>
                                     <div className="ml-3 text-sm">
-                                        <label htmlFor="terms" className="font-light text-white dark:text-gray-300">I accept the <a className="font-medium text-gray-200 hover:underline dark:text-primary-500" >Terms and Conditions</a></label>
+                                        <label htmlFor="terms" className="font-light text-white dark:text-gray-300">I accept the <div className="font-medium text-gray-200 hover:underline dark:text-primary-500" >Terms and Conditions</div></label>
                                     </div>
                                 </div>
                                 <div className="flex justify-center">
@@ -49,7 +49,7 @@ export default function Signup() {
                                     </button>
                                 </div>
                                 <Link to='/login' className="text-xl font-light text-white dark:text-gray-400">
-                                    Already have an account? <a  className="font-large text-white  hover:bg-white hover:text-green-900  rounded-lg p-1 dark:text-primary-500">Login here</a>
+                                    Already have an account? <div  className="font-large text-white  hover:bg-white hover:text-green-900  rounded-lg p-1 dark:text-primary-500">Login here</div>
                                 </Link>
                             </form>
                         </div>
