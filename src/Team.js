@@ -15,7 +15,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a >
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="vishal.jpeg" alt="Vishal Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="vishal.jpeg" alt="Vishal" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
@@ -39,7 +39,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a >
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="appu.jpeg" alt="Appu Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="appu.jpeg" alt="Appu" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
@@ -57,7 +57,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a >
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="moni.jpg" alt="Monish Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="moni.jpg" alt="Monish" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
@@ -88,7 +88,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <a >
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="manoj.jpg" alt="Shree Avatar" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="manoj.jpg" alt="Shree" />
                             </a>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
