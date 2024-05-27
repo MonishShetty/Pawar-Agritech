@@ -10,7 +10,7 @@ const FeatureSection = () => {
           <div className="relative overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
             <img
               src="confarm.jpg"
-              alt="Feature Image"
+              
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
@@ -27,7 +27,7 @@ const FeatureSection = () => {
           <div className="relative overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
             <img
               src="water.jpg"
-              alt="Feature Image"
+              
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
@@ -44,7 +44,7 @@ const FeatureSection = () => {
           <div className="relative overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
             <img
               src="of.jpg"
-              alt="Feature Image"
+              
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
@@ -61,7 +61,7 @@ const FeatureSection = () => {
           <div className="relative overflow-hidden rounded-lg bg-white shadow-md transition-transform duration-300 hover:scale-105">
             <img
               src="sw.jpg"
-              alt="Feature Image"
+              
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
