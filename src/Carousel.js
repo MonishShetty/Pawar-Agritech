@@ -5,7 +5,10 @@ export default function Carousel() {
     const initializeCarousel = () => {
       const carousel = document.getElementById('indicators-carousel');
       if (carousel) {
+        console.log('Carousel found, initializing...');
         carousel.dispatchEvent(new Event('carousel:initialize'));
+      } else {
+        console.log('Carousel element not found');
       }
     };
 
@@ -24,26 +27,24 @@ export default function Carousel() {
       <div>
         <div id="indicators-carousel" className="relative w-full" data-carousel="static">
           <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
-              <img src="drone.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Drone" />
+            <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
+              <img src="/drone.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Drone" />
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-50 p-4 text-white text-center">
                 <h3 className="text-xl font-bold mb-1">Maximizing agricultural productivity through digital tools</h3>
               </div>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="plant.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Plant" />
+              <img src="/plant.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Plant" />
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-50 p-4 text-white text-center">
                 <h3 className="text-xl font-bold mb-1">Empowering farmers with innovative technology solutions</h3>
               </div>
             </div>
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="farm.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Farm" />
+              <img src="/farm.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Farm" />
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-50 p-4 text-white text-center">
                 <h3 className="text-xl font-bold mb-1">Transforming farming practices with data-driven insights</h3>
               </div>
             </div>
-            
-           
           </div>
           <div className="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
             <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
