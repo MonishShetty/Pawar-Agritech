@@ -6,7 +6,7 @@ export default function Signup() {
         <div
             className="bg-cover bg-no-repeat bg-center backdrop-blur-md"
             style={{
-                backgroundImage: `url('login2.jpg')`,
+                backgroundImage: `url('webimages/login2.jpg')`,
             }}
         >
             <section className=" dark:bg-gray-900">

@@ -11,8 +11,8 @@ export default function Content() {
                         <p> With us, satisfaction isn't just a goal; it's a promise upheld with every product, ensuring that our customers receive nothing but the best.</p>
                     </div>
                     <div class="grid grid-cols-2 gap-4 mt-8">
-                        <img class="w-full rounded-lg" src="c1.jpg" alt="office content 1" />
-                        <img class="mt-4 w-full lg:mt-10 rounded-lg" src="c2.jpg" alt="office content 2" />
+                        <img class="w-full rounded-lg" src="webimages/c1.jpg" alt="office content 1" />
+                        <img class="mt-4 w-full lg:mt-10 rounded-lg" src="webimages/c2.jpg" alt="office content 2" />
                     </div>
                 </div>
             </section>

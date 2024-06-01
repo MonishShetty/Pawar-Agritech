@@ -45,7 +45,7 @@ export default function Navbar() {
       <nav className="bg-green-100 border-gray-200 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
           <div className="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="logo.png" className="h-15 w-24 rounded-full" alt="Logo" />
+            <img src="icon.png" className="h-15 w-24 rounded-full" alt="Logo" />
           </div>
           <div className="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse">
             <Link to='/login' className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">

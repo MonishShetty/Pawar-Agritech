@@ -5,7 +5,7 @@ export default function Whyus() {
     <div>
         <section class="bg-white dark:bg-gray-900">
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <img class="w-full dark:hidden rounded-full" src="us.jpg" alt="" />
+        <img class="w-full dark:hidden rounded-full" src="webimages/us.jpg" alt="" />
         <img class="w-full hidden dark:block" src="us2.jpg" alt=""/>
         <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-green-900 dark:text-white">Why Choose Pawar Agritech..</h2>

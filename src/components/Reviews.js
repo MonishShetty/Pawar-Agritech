@@ -54,7 +54,7 @@ const ReviewSection = () => {
                   <div className="flex items-center mb-4">
                     <img
                       className="w-16 h-16  rounded-full mr-6"
-                      src={review.photo}
+                      src={"testinomials/"+review.photo}
                       alt={review.name}
                     />
                     <div>

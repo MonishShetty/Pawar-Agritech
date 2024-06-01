@@ -15,7 +15,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <div >
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="vishal.jpeg" alt="Vishal" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="team/vishal.jpeg" alt="Vishal" />
                             </div>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
@@ -39,7 +39,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <div>
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="appu.jpeg" alt="Appu" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="team/appu.jpeg" alt="Appu" />
                             </div>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
@@ -57,7 +57,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <div >
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="moni.jpg" alt="Monish" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="team/moni.jpg" alt="Monish" />
                             </div>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
@@ -88,7 +88,7 @@ export default function Team() {
 
                         <div class="items-center bg-green-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
                             <div>
-                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="manoj.jpg" alt="Shree" />
+                                <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="team/manoj.jpg" alt="Shree" />
                             </div>
                             <div class="p-5">
                                 <h3 class="text-xl font-bold tracking-tight text-green-900 dark:text-white">
