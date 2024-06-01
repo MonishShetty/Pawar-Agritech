@@ -5,7 +5,7 @@ export default function Navbar() {
   // State variables to track whether the dropdown menus are open
   const [serviceDropdownOpen, setServiceDropdownOpen] = useState(false);
   const [marketplaceDropdownOpen, setMarketplaceDropdownOpen] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(true); // New state for mobile menu
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // New state for mobile menu
 
   // Function to toggle the Service dropdown menu
   const toggleServiceDropdown = () => {
