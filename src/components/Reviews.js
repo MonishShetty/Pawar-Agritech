@@ -39,7 +39,7 @@ const ReviewSection = () => {
 
   return (
     <section className=" py-10 pt-4 pb-8">
-      <div className="container mx-auto px-4 relative">
+      <div className="container mx-auto md:px-4 relative">
         <h2 className="text-3xl text-green-900 font-bold text-center mb-8">What our happy customers and well-wishers say!!</h2>
         <div className="relative flex justify-center items-center ">
           <div className="flex overflow-hidden w-full max-w-3xl relative ">

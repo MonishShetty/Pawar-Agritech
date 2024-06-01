@@ -4,7 +4,7 @@ export default function Companyinfo() {
   return (
     <div>
       <section className="py-10 pt-4 pb-4  bg-green-900 sm:py-16 mt-14 lg:py-24">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="md:px-4 mx-auto max-w-7xl lg:px-8">
 
 
           <div className="grid grid-cols-1 gap-6 px-6 mt-8 sm:px-0 lg:mt-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
