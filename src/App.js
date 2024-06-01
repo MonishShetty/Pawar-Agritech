@@ -1,33 +1,26 @@
-import './App.css';
-import Navbar from './Navbar';
+import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
 
-import Footer from './Footer';
-import Contract from './Contract';
-import Water from './Water';
-
-import { Routes, BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact';
-import Signin from './Signin';
-import Signup from './Signup';
-import Team from './Team';
-import Farmer from './Farmer';
-import Buyer from './Buyer';
-import Soil from './Soil';
-
-
-
+import "./styles/App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Contract from "./pages/Contract";
+import Water from "./pages/Water";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Signin from "./pages/Signin";
+import Signup from "./pages/Signup";
+import Team from "./pages/Team";
+import Farmer from "./pages/Farmer";
+import Buyer from "./pages/Buyer";
+import Soil from "./pages/Soil";
 
 function App() {
   return (
     <>
-     
-        
-        <Router>
+      <Router>
         <Navbar />
-       {/* <Home/> */}
         <Routes>
-        <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/contractfarming" element={<Contract />} />
           <Route path="/watersolutions" element={<Water />} />
           <Route path="/soiltesting" element={<Soil />} />
@@ -37,13 +30,9 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/farmer" element={<Farmer />} />
           <Route path="/buyer" element={<Buyer />} />
-
-         
         </Routes>
         <Footer />
-
-        </Router>
-
+      </Router>
     </>
   );
 }
