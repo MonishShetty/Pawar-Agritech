@@ -1,3 +1,4 @@
+import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
 import React, { useState } from "react";
 
 const reviews = [
@@ -18,8 +19,7 @@ const reviews = [
     photo: "rohith.jpeg",
     place: "Bijapur",
     review: "Pawar Agritech employs innovative tech for sustainable, environmentally-friendly farming to aid small farmers.",
-  },
-  // Add more reviews as needed
+  }
 ];
 
 const ReviewSection = () => {
@@ -71,13 +71,13 @@ const ReviewSection = () => {
             onClick={prevSlide}
             className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-green-900 text-white p-2 rounded-full z-10 lg:left-2"
           >
-            &#9664;
+            <CircleChevronLeft/>
           </button>
           <button
             onClick={nextSlide}
             className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-green-900 text-white p-2 rounded-full z-10 lg:right-2"
           >
-            &#9654;
+            <CircleChevronRight/>
           </button>
         </div>
       </div>
