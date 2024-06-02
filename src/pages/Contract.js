@@ -23,10 +23,10 @@ export default function Contract() {
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4  mt-8">
-                        <img className="w-full rounded-lg image-hover transition-transform duration-300 transform hover:scale-150 hover:shadow-xl	" src="cf1.jpg" alt="office content 1" />
-                        <img className="mt-4 w-full lg:mt-10 rounded-lg image-hover transition-transform duration-300 transform hover:scale-105" src="cf2.jpg" alt="office content 2" />
-                        <img className="w-full rounded-lg image-hover transition-transform duration-300 transform hover:scale-150 hover:shadow-xl	" src="cf3.jpg" alt="office content 1" />
-                        <img className="w-full rounded-lg image-hover transition-transform duration-300 transform hover:scale-150 hover:shadow-xl	" src="cf4.jpg" alt="office content 1" />
+                        <img className="w-full rounded-lg image-hover transition-transform duration-300 transform hover:scale-150 hover:shadow-xl" src="webimages/cf1.jpg" alt="office content 1" />
+                        <img className="mt-4 w-full lg:mt-10 rounded-lg image-hover transition-transform duration-300 transform hover:scale-105" src="webimages/cf2.jpg" alt="office content 2" />
+                        <img className="w-full rounded-lg image-hover transition-transform duration-300 transform hover:scale-150 hover:shadow-xl" src="webimages/cf3.jpg" alt="office content 1" />
+                        <img className="w-full rounded-lg image-hover transition-transform duration-300 transform hover:scale-150 hover:shadow-xl" src="webimages/cf4.jpg" alt="office content 1" />
 
 
                     </div>

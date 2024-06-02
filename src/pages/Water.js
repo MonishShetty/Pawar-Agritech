@@ -15,16 +15,16 @@ const WaterSolutionsPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Images */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <img src="ws1.jpg" alt="Water Solutions 1" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
+            <img src="webimages/ws1.jpg" alt="Water Solutions 1" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
           </div>
           <div className="col-span-1 md:col-span-1 lg:col-span-1">
-            <img src="ws2.jpg" alt="Water Solutions 2" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
+            <img src="webimages/ws2.jpg" alt="Water Solutions 2" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
           </div>
           <div className="col-span-1 md:col-span-1 lg:col-span-1">
-            <img src="ws3.jpg" alt="Water Solutions 3" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
+            <img src="webimages/ws3.jpg" alt="Water Solutions 3" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
           </div>
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <img src="ws4.jpg" alt="Water Solutions 4" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
+            <img src="webimages/ws4.jpg" alt="Water Solutions 4" className="w-full h-full object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
         {/* Content */}

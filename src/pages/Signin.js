@@ -5,11 +5,11 @@ export default function Example() {
     <div
       className="bg-cover bg-no-repeat bg-center backdrop-blur-md"
       style={{
-        backgroundImage: `url('login1.jpg')`,
+        backgroundImage: `url('webimages/login1.jpg')`,
       }}
     >
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-        <div className="sm:mx-auto sm:w-full sm:max-w-sm   bg-opacity-10 dark:bg-gray-900 dark:bg-opacity-80 rounded-lg p-6 shadow-md">
+      <div className="flex min-h-full flex-1 flex-col justify-center px-4 py-12 lg:px-8">
+        <div className="sm:mx-auto sm:w-full sm:max-w-sm bg-opacity-10 bg-gray-900 dark:bg-opacity-80 rounded-lg p-6 shadow-md">
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
             Sign in to your account
           </h2>

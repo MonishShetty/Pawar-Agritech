@@ -21,7 +21,7 @@ const Contact = () => {
     <div
       className="bg-cover bg-no-repeat bg-center"
       style={{
-        backgroundImage: `url('contactbg.jpg')`,
+        backgroundImage: `url('webimages/contactbg.jpg')`,
         backdropFilter: 'blur(10px)',
         webkitBackdropFilter: 'blur(10px)',
       }}

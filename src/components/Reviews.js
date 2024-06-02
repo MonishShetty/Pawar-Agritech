@@ -1,3 +1,4 @@
+import { CircleChevronLeft, CircleChevronRight } from "lucide-react";
 import React, { useState } from "react";
 
 const reviews = [
@@ -18,8 +19,7 @@ const reviews = [
     photo: "rohith.jpeg",
     place: "Bijapur",
     review: "Pawar Agritech employs innovative tech for sustainable, environmentally-friendly farming to aid small farmers.",
-  },
-  // Add more reviews as needed
+  }
 ];
 
 const ReviewSection = () => {
@@ -39,7 +39,7 @@ const ReviewSection = () => {
 
   return (
     <section className=" py-10 pt-4 pb-8">
-      <div className="container mx-auto px-4 relative">
+      <div className="container mx-auto md:px-4 relative">
         <h2 className="text-3xl text-green-900 font-bold text-center mb-8">What our happy customers and well-wishers say!!</h2>
         <div className="relative flex justify-center items-center ">
           <div className="flex overflow-hidden w-full max-w-3xl relative ">
@@ -54,7 +54,7 @@ const ReviewSection = () => {
                   <div className="flex items-center mb-4">
                     <img
                       className="w-16 h-16  rounded-full mr-6"
-                      src={review.photo}
+                      src={"testinomials/"+review.photo}
                       alt={review.name}
                     />
                     <div>
@@ -71,13 +71,13 @@ const ReviewSection = () => {
             onClick={prevSlide}
             className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-green-900 text-white p-2 rounded-full z-10 lg:left-2"
           >
-            &#9664;
+            <CircleChevronLeft/>
           </button>
           <button
             onClick={nextSlide}
             className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-green-900 text-white p-2 rounded-full z-10 lg:right-2"
           >
-            &#9654;
+            <CircleChevronRight/>
           </button>
         </div>
       </div>
